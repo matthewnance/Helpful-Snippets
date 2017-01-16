@@ -1,0 +1,12 @@
+#### Example defining proper SHELL and PATH variables for Laravel scheduler
+
+```
+#Start env definitions
+SHELL=/bin/sh
+# Copy output from $PATH below
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+#End env definitions
+```
+
+#### Setting bash script to run every minute
+* * * * * /bin/bash /home/user/bin/command_to_run.sh

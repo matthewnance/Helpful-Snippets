@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Php path differs depending on host. AWS with php 5.6 is listed below
+'/usr/bin/php-5.6' /home/user/www.laravel-base-directory.com/artisan schedule:run

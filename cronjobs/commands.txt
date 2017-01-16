@@ -1,0 +1,3 @@
+---- Open cron in nano
+
+export VISUAL=nano; crontab -e
